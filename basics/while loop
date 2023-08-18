@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+      <?php
+      // While loops;  NB: make sure you dont have infinite loops.
+      // repeated execution 
+      $num = 1;
+      while($num <= 5){
+        echo "$num <br>";
+        $num ++;
+      }
+
+       // do while loops
+       // first execute then check later the state
+       $index = 1;
+
+       do{
+         echo "$index <br>";
+         $index ++;
+       }while($index <= 5);
+ 
+       ?>
+    </body>
+</html>
